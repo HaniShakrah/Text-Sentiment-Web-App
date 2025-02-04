@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 0 20px;
+    transition: background-color 0.3s;
+}
+
+.container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+    animation: fadeIn 0.5s ease-out;
+    transition: transform 0.3s;
+}
+
+.header-description {
+    margin-top: 20px;
+    font-size: 20px;
+    color: #333;
+  }
+
+.container:hover {
+    transform: scale(1.02);
+}
+
+
+h1 {
+    color: #333;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+form {
+    margin-bottom: 25px;
+}
+
+label {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #333;
+    margin-bottom: 10px;
+    display: block;
+    text-align: left;
+}
+
+textarea {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 2px solid #e0e0e0;
+    border-radius: 8px;
+    font-size: 1rem;
+    resize: none;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+textarea:focus {
+    border-color: #007BFF;
+}
+
+button {
+    padding: 12px 30px;
+    background-color: #00C851;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #007E33;
+}
+
+#result {
+    margin-top: 30px;
+}
+
+h2 {
+    color: #333;
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.result-text {
+    font-size: 50rem;
+    font-weight: 500;
+    color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 10px;
+    display: inline-block;
+    max-width: 80%;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.result-text.Positive {
+    background-color: #66BB6A;  /* Green */
+}
+
+.result-text.Negative {
+    background-color: #FF7043;  /* Red */
+}
+
+.result-text.Neutral {
+    background-color: #FFEB3B;  /* Yellow */
+}
+
+.result-text.Mixed {
+    background-color: #42A5F5;  /* Blue */
+}
+
+.result-text.Toxic {
+    background-color: #E57373;  /* Dark Red */
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* Adding subtle background gradients to the body */
+body {
+    background:linear-gradient(to right, rgb(8, 46, 143) , rgb(147, 162, 202));
+}
+
+/* Adding gradient to the container for some flair */
+.container {
+    background: linear-gradient(135deg, #727070, #c5c0c1);
+    color: #fff;
+    height: 600px;
+    width: 600px;
+}
+
+/* Main container */
+.container {
+    background: linear-gradient(135deg, #727070, #eee9ea);
+    color: #fff;
+    width: 90%;
+    max-width: 650px;
+    height: 500px;
+    padding: 40px;
+    margin: 0 auto;
+    border-radius: 15px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;  
+    justify-content: space-between;
+}
+
+
+
+.footer {
+    color: white;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  .contact {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  #github {
+    width: 70px;
+    height: 70px;
+    margin: 0 10px;
+  }
+
+  #linkedin {
+    width: 70px;
+    height: 70px;
+    margin: 0 10px;
+    border-radius: 100%;
+  }
