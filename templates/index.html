@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sentiment Analysis</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Sentiment Analysis</h1>
+        <p class="header-description">Fill the form to see if your text was positive or negative</p>
+        <form action="{{ url_for('predict') }}" method="post">
+            <textarea name="tweet" id="tweet" cols="30" rows="5" placeholder="Enter your text here" required></textarea><br>
+            <button type="submit">Run</button>
+            <output class="result">{{ prediction }}</output>
+        </form>
+    </div>
+    <br>
+    <div class="footer">
+        <div class="contact">
+            <a href="https://www.linkedin.com/in/hani-shakrah/"><img id="linkedin" src=/static/assets/linkedin.png alt="LinkedIn"></a>
+            <a href="https://github.com/HaniShakrah"><img id="github" src=/static/assets/github.png alt="Github"></a>
+
+        </div>
+    </div>
+</body>
+</html>
+
+
