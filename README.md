@@ -1,6 +1,6 @@
 # Text Sentiment Web App
  
-The goal of this project was to gain experience with tools/concepts I have never used before, specifically Flask, HTML/CSS, Optuna, and TF-IDF feature extraction. 
+The goal of this project was to gain experience with tools/concepts I have never used before, specifically Flask, HTML/CSS, Optuna, and TF-IDF feature extraction. In the process, I developed an interactive web app that allows for real-time prediction of text sentiment. 
 
 # Included in this repository:
 
@@ -13,4 +13,8 @@ The goal of this project was to gain experience with tools/concepts I have never
 
 # Demo of web app
 https://github.com/user-attachments/assets/6d95a8b1-1763-4b49-8da1-2d20f7c89784
+
+# Dataset
+1.6 million tweets classified by their sentiment:
+https://www.kaggle.com/datasets/kazanova/sentiment140
 
