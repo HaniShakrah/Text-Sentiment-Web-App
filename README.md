@@ -1,6 +1,8 @@
 # Text Sentiment Web App
  
-The goal of this project was to gain experience with tools/concepts I have never used before, specifically Flask, HTML/CSS, Optuna, and TF-IDF feature extraction. In the process, I developed an interactive web app that allows for real-time prediction of text sentiment. 
+The goal of this project was to gain experience with tools/concepts I have never used before, specifically Flask, HTML/CSS, Optuna, and TF-IDF feature extraction. 
+
+In the process, I developed an interactive web app built on Flask that leverages machine learning for real-time prediction of text sentiment. Performed was data exploration, feature extraction, model selection, hyperparameter tuning, model deployment, and website design.
 
 # Included in this repository:
 
